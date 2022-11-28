@@ -1,0 +1,6 @@
+# Ignore example files
+*test
+
+# Ignore backup files
+*~
+
