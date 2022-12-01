@@ -1,20 +1,14 @@
 0x02. Python - import &amp; modules
 ===================================
 
-Python- By: Guillaume
-- Weight: 1
-- Project will start Dec 1, 2022 6:00 AM, must end by Dec 2, 2022 6:00 AM
-- was released at Dec 1, 2022 12:00 PM
-- An auto review will be launched at the deadline
-
 Resources
 ---------
 
 **Read or watch**:
 
-- [Modules](https://alx-intranet.hbtn.io/rltoken/SY-cMfnwbHoPFaJ-D_LWig "Modules")
-- [Command line arguments](https://alx-intranet.hbtn.io/rltoken/5e3TphtJ6WSVkWsdd2eX_A "Command line arguments")
-- [Pycodestyle – Style Guide for Python Code](https://alx-intranet.hbtn.io/rltoken/FlkAJ_kPXHC4Y65WrRvA4A "Pycodestyle -- Style Guide for Python Code")
+- [Modules](https://pypi.org/project/pycodestyle/)
+- [Command line arguments](https://docs.python.org/3/tutorial/stdlib.html#command-line-arguments)
+- [Pycodestyle – Style Guide for Python Code](https://pypi.org/project/pycodestyle/)
 
 **man or help**:
 
@@ -35,13 +29,6 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - How to prevent code in your script from being executed when imported
 - How to use command line arguments with your Python programs
 
-### Copyright - Plagiarism
-
-- You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-- You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-- You are not allowed to publish any content of this project.
-- Any form of plagiarism is strictly forbidden and will result in removal from the program.
-
 Requirements
 ------------
 
@@ -57,5 +44,7 @@ Requirements
 - The length of your files will be tested using `wc`
 
  ### Files and Descriptions
+
+| File		  | Description         |
 |-----------------|-------------------|
 | README.md       | Project description file|
