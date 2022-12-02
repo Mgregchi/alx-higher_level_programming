@@ -8,6 +8,9 @@
 - [Data structures (until 5.3. Tuples and Sequences included)](https://docs.python.org/3/tutorial/datastructures.html)
 - [Learn to Program 6 : Lists](https://youtu.be/A1HUzrvS-Pw)
 
+### Extra resources
+- [Common Object Structures](https://docs.python.org/3.4/c-api/structures.html)
+- [Lists Objects](https://docs.python.org/3.4/c-api/list.html)
 
 ## General Learning Objectives
 
@@ -37,7 +40,7 @@
 
 - A README.md file, at the root of the folder of the project, is mandatory
 
--Your code should use the pycodestyle (version 2.8.*)
+- Your code should use the pycodestyle (version 2.8.*)
 
 - All your files must be executable
 
