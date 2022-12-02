@@ -1,0 +1,11 @@
+# ALX High Level Programming
+
+# Python Programming Language
+
+**This Repository is for ALX software engineering course - Python Programming.**
+
+It contains **Python** and some **C** source codes as a solution to ALX Projects and Tasks I am tasked to complete.
+
+## Files / Project Directory  structure
+
+```
