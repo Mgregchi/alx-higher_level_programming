@@ -5,7 +5,7 @@ def roman_to_int(roman_string):
     if not isinstance(roman_string, str):
         return 0
     if not roman_string.isupper():
-        return 0
+        roman_string.upper()
     r_dict = {
         "I": 1,
         "IV": 4,
