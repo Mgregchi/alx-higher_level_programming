@@ -1,4 +1,6 @@
 # 0x07. Python - Test-driven development
+| Python | UnitTests | TDD |
+|------- | ----------|-----|
 
 ## Background Context
 
@@ -59,3 +61,9 @@ See file specifications here
 - All your functions should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)')
 - A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 - We strongly encourage you to work together on test cases, so that you don’t miss any edge case – The Checker is checking for tests!
+
+## Files and Description
+
+|File              | Description       |
+| -----------------|-------------------|
+| README.md        | Project description file |
