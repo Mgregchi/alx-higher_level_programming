@@ -1,42 +1,54 @@
 #!/usr/bin/python3
+"""Class Square"""
+
+
 class Square:
-    """Defines a square"""
+    """Defines a square class:
+    - Private instance attribute: size
+    - Instantatiation with optional size: def __init__(self, size=0)"""
+
     def __init__(self, size=0):
-        """Initialises the data"""
+        """size is a private attribute"""
         self.size = size
 
     def area(self):
-        """Returns current square area"""
-        return self.__size**2
+        """- Public instance method: def area(self): that returns
+            the current square area"""
+        return (self.__size * self.__size)
 
     @property
     def size(self):
-        """Getter method"""
-        return self.__size
+        return (self.__size)
 
     @size.setter
-    def size(self, value):
-        """Setter method"""
-        self.__size = value
-        if type(value) != int:
-            raise TypeError("size must be an integer")
-        if value < 0:
-            raise ValueError("size must be >= 0")
+    def size(self, new_size):
+        if (type(new_size) is not int):
+            raise (TypeError("size must be an integer"))
+        elif (new_size < 0):
+            raise (ValueError("size must be >= 0"))
+        else:
+            self.__size = new_size
 
-    def __lt__(self, other):
-        return self.area() < other.area()
+    def __eq__(self, object2):
+        """ == """
+        return self.area() == object2.area()
 
-    def __le__(self, other):
-        return self.area() <= other.area()
+    def __lt__(self, object2):
+        """ < """
+        return self.area() < object2.area()
 
-    def __eq__(self, other):
-        return self.area() == other.area()
+    def __gt__(self, object2):
+        """ > """
+        return self.area() > object2.area()
 
-    def __ne__(self, other):
-        return self.area() != other.area()
+    def __le__(self, object2):
+        """ <= """
+        return self.area() <= object2.area()
 
-    def __gt__(self, other):
-        return self.area() > other.area()
+    def __ge__(self, object2):
+        """ >= """
+        return self.area() >= object2.area()
 
-    def __ge__(self, other):
-        return self.area() >= other.area()
+    def __ne__(self, object2):
+        """ != """
+        return self.area() != object2.area()
