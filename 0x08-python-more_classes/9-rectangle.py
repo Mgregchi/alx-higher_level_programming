@@ -27,7 +27,9 @@ class Rectangle:
 
     def __init__(self, width=0, height=0):
         """An object constructor method.
+        
         Initiatilizes Rectangle with width and height.
+        
         Args:
             width: An integer representing object width.
                   Has a default value of 0.
