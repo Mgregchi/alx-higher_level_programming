@@ -47,8 +47,10 @@ Negative variables in list inputs:
 Empty matrix input:
     >>> matrix = [[]]
     >>> print(matrix_divided(matrix, 2))
-    [[]]
-
+    Traceback (most recent call last):
+    ...
+    TypeError: matrix must be a matrix (list of lists) of integers/floats
+    
 No input:
     >>> print(matrix_divided())
     Traceback (most recent call last):
