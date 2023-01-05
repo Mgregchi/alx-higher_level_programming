@@ -1,0 +1,43 @@
+Test cases for 0-add_integer.py
+
+Overview of the ``add_integer()`` function:
+The function Adds two integers together and returns the sum.
+
+Args:
+   a: first int.
+   b: second int, default value is 98.
+Raises:
+   TypeError: if a, b are neither int nor float.
+Returns:
+   sum of a and b.
+
+It as well checks if a and b are integers or floats,
+otherwise it raises a TypeError exception 
+with the message a must be an integer or b must be an integer
+
+a and b must be first casted to integers if they are float
+
+Test cases:
+
+>>> print(add_integer(1, 2))
+3
+>>> print(add_integer(100, -2))
+98
+>>> print(add_integer(2))
+100
+>>> print(add_integer(100.3, -2))
+98
+>>> try:
+... 	print(add_integer(4, "School"))
+... except Exception as e:
+... 	print(e)
+...
+b must be an integer
+
+>>> try:
+... 	print(add_integer(None))
+... except Exception as e:
+... 	print(e)
+...
+a must be an integer
+
