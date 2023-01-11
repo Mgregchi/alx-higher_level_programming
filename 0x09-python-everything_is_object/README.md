@@ -1,6 +1,14 @@
 # 0x09. Python - Everything is object
 
- 
+## Resources 
+
+- [9.10. Objects and values](http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#objects-and-values)
+- [9.11. Aliasing](http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#aliasing)
+- [Immutable vs mutable types](https://stackoverflow.com/questions/8056130/immutable-vs-mutable-types)
+- [Mutation](http://composingprograms.com/pages/24-mutable-data.html#sequence-objects)
+- [9.12. Cloning lists](http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#cloning-lists)
+- [Python tuples: immutable but potentially changing](http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html)
+
 ## General Learning Objectives:
 
 * Why Python programming is awesome
@@ -18,9 +26,24 @@
 * What are the built-in immutable types
 * How does Python pass variables to functions
 
+## Requirements
+   ### Python Scripts
+
+   - All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+   - All your files should end with a new line
+   - The first line of all your files should be exactly #!/usr/bin/python3
+   - A README.md file, at the root of the folder of the project, is mandatory
+   - Your code should use the pycodestyle (version 2.8.*)
+   - All your files must be executable
+   - The length of your files will be tested using wc
+
+   ### `.txt` Answer Files
+   - Only one line
+   - No Shebang
+   - All your files should end with a new line
+
 ## Files and Description
 
 | File        | Description      |
 |----------------|----------------|
 |README.md        | Project description       |
-
