@@ -12,8 +12,10 @@ Usage Example:
 class Rectangle:
     """Defines the blueprint of a rectangle.
     Attribute:
-        width: An integer indicating the width of the rectangle object.
-        height: An integer indicating the height of the rectangle object.
+        width: An integer indicating the width 
+            of the rectangle object.
+        height: An integer indicating the height 
+            of the rectangle object.
     """
     def __init__(self, width=0, height=0):
         """An object constructor method.
