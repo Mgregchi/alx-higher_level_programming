@@ -57,7 +57,7 @@ In this project, you will review everything about Python:
 
 
 ### Python Unit Tests
-```
+
 - All your files should end with a new line
 - All your test files should be inside a folder tests
 - You have to use the unittest module
@@ -67,7 +67,7 @@ In this project, you will review everything about Python:
 - All your tests should be executed by using this command: `python3 -m unittest discover tests`
 - You can also test file by file by using this command: `python3 -m unittest tests/test_models/test_base.py`
 - We strongly encourage you to work together on test cases so that you don’t miss any edge case
-```
+
 
 ## Files And Descriptions
 | File                 | Descripion               |
