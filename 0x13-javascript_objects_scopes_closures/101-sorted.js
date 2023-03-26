@@ -1,8 +1,8 @@
 #!/usr/bin/node
 // JS Script
-let dict = require('./101-data').dict;
-let n = {};
-for (let i in dict) {
+const dict = require('./101-data').dict;
+const n = {};
+for (const i in dict) {
   if (n[dict[i]] === undefined) {
     n[dict[i]] = [];
   }
