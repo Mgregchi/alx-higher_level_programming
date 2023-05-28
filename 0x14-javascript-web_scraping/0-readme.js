@@ -4,9 +4,10 @@ const fs = require('fs');
 
 const filePath = process.argv[2];
 
-try {
-  const content = fs.readFileSync(filePath, 'utf-8');
-  console.log(content);
-} catch (error) {
-  console.error(error);
-}
+fs.readFile(filePath, 'utf8', function (err, data) {
+  if (err) {
+    console.log(err);
+  } else {
+    process.stdout.write(data);
+  }
+});
